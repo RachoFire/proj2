@@ -1,0 +1,12 @@
+step one: create a new data base on your localserver. name is Coffee_DB
+step two: add a new user to that database that has full access to it. either name this new user Coffee and make the password lzcJsPl1blChx869
+or change the code in model.php line 19 and 20 so that username and password matches the username and password of the newly created user.
+(change the hostname and port number in models.php line 18 if needed.)
+
+step two: import database.sql into the new database.
+
+it should be set up and you can interact with it on the index page. if it is still not working check the fetch url ar main.js line 1 to make sure it is going to the right loction.
+if it still doesn't work check the url white list url to see if it is correct in apr.php line 51.
+
+for the testing script install the visual studios extention thunder client if not already installs. then import the collect thunder-collection_api testscript.json
+to run click on the three dots that show up when u hover over the collection name. click run all then click run on the screen that displays afterwards.
